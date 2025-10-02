@@ -4,15 +4,15 @@
 #include <ArduinoHttpClient.h> // this is Library for making HTTP/HTTPS requests
 
 // ==================== USER SETTINGS ====================
-const char* WIFI_SSID = "saksham the great";   // This is my WiFi network name
-const char* WIFI_PASS = "44saksham22";         // WiFi password
+const char* WIFI_SSID = "SAKSHAM 8584";   // This is my WiFi network name
+const char* WIFI_PASS = "Saksham@1424";         // WiFi password
 
 const char* IFTTT_HOST = "maker.ifttt.com";    // IFTTT server host
 const int   IFTTT_PORT = 443;                  // HTTPS port
 
 // Direct Webhook paths
-const char* PATH_START = "/trigger/sunlight_started/with/key/hhNMOULDUz8ZcbNGKqqn1DiFAIMVS1cPWUBVKm4g0o-";
-const char* PATH_STOP  = "/trigger/sunlight_stopped/with/key/hhNMOULDUz8ZcbNGKqqn1DiFAIMVS1cPWUBVKm4g0o-";
+const char* PATH_START = "/trigger/sunlight_started/with/key/hZZptGi_h7OsDv8yQR8xrQcY5KO5ctWqMArkv_ozJ0R";
+const char* PATH_STOP  = "/trigger/sunlight_stopped/with/key/hZZptGi_h7OsDv8yQR8xrQcY5KO5ctWqMArkv_ozJ0R";
 
 // ---------------- Indoor Test Thresholds ----------------
 // Room light ~150 lux, Torchlight goes above 200 lux.
